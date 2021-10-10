@@ -72,7 +72,7 @@ while True:
         for elem in mac_addresses:
             if elem in Checking_Mac:
                 print("======================================================================================================================================================")
-                print("Upss!!\n")
+                print("Oops!!\n")
                 print(f"The address {elem} has been spoofed!! Same Mac address assigned to more than one IPv4 in the ARP table. For more info, Check your Log_Spoofing.txt file\n\n\n")
                 print("======================================================================================================================================================")
                 return elem
